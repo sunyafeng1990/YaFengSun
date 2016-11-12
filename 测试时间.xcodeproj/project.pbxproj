@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A45363891DC33435004924AC /* XZHomeHuaiYunCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A45363851DC33435004924AC /* XZHomeHuaiYunCollectionViewCell.m */; };
 		A4F86CCF1DBE01680018F6FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F86CCE1DBE01680018F6FE /* main.m */; };
 		A4F86CD21DBE01680018F6FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F86CD11DBE01680018F6FE /* AppDelegate.m */; };
 		A4F86CD51DBE01680018F6FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F86CD41DBE01680018F6FE /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		A4F86CDD1DBE01680018F6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F86CDB1DBE01680018F6FE /* LaunchScreen.storyboard */; };
 		A4F86CE81DBE01680018F6FE /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F86CE71DBE01680018F6FE /* ____Tests.m */; };
 		A4F86CF31DBE01680018F6FE /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F86CF21DBE01680018F6FE /* ____UITests.m */; };
+		A4F86D071DBE05CF0018F6FE /* 返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F86D061DBE05CF0018F6FE /* 返回@2x.png */; };
+		A4F86D091DBE05FA0018F6FE /* 右白箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F86D081DBE05FA0018F6FE /* 右白箭头@2x.png */; };
+		E42F932A1DBE7CA000D0CB0F /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E42F93291DBE7CA000D0CB0F /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A45363841DC33435004924AC /* XZHomeHuaiYunCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZHomeHuaiYunCollectionViewCell.h; path = ../XZHomeHuaiYunCollectionViewCell.h; sourceTree = "<group>"; };
+		A45363851DC33435004924AC /* XZHomeHuaiYunCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZHomeHuaiYunCollectionViewCell.m; path = ../XZHomeHuaiYunCollectionViewCell.m; sourceTree = "<group>"; };
 		A4F86CCA1DBE01680018F6FE /* 测试时间.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试时间.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F86CCE1DBE01680018F6FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4F86CD01DBE01680018F6FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		A4F86CEE1DBE01680018F6FE /* 测试时间UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试时间UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F86CF21DBE01680018F6FE /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		A4F86CF41DBE01680018F6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F86D061DBE05CF0018F6FE /* 返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@2x.png"; sourceTree = "<group>"; };
+		A4F86D081DBE05FA0018F6FE /* 右白箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右白箭头@2x.png"; sourceTree = "<group>"; };
+		E42F93281DBE7CA000D0CB0F /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		E42F93291DBE7CA000D0CB0F /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,8 @@
 		A4F86CC11DBE01680018F6FE = {
 			isa = PBXGroup;
 			children = (
+				A4F86D081DBE05FA0018F6FE /* 右白箭头@2x.png */,
+				A4F86D061DBE05CF0018F6FE /* 返回@2x.png */,
 				A4F86CCC1DBE01680018F6FE /* 测试时间 */,
 				A4F86CE61DBE01680018F6FE /* 测试时间Tests */,
 				A4F86CF11DBE01680018F6FE /* 测试时间UITests */,
@@ -105,6 +117,10 @@
 				A4F86CD11DBE01680018F6FE /* AppDelegate.m */,
 				A4F86CD31DBE01680018F6FE /* ViewController.h */,
 				A4F86CD41DBE01680018F6FE /* ViewController.m */,
+				A45363841DC33435004924AC /* XZHomeHuaiYunCollectionViewCell.h */,
+				A45363851DC33435004924AC /* XZHomeHuaiYunCollectionViewCell.m */,
+				E42F93281DBE7CA000D0CB0F /* Tool.h */,
+				E42F93291DBE7CA000D0CB0F /* Tool.m */,
 				A4F86CD61DBE01680018F6FE /* Main.storyboard */,
 				A4F86CD91DBE01680018F6FE /* Assets.xcassets */,
 				A4F86CDB1DBE01680018F6FE /* LaunchScreen.storyboard */,
@@ -246,9 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F86D071DBE05CF0018F6FE /* 返回@2x.png in Resources */,
 				A4F86CDD1DBE01680018F6FE /* LaunchScreen.storyboard in Resources */,
 				A4F86CDA1DBE01680018F6FE /* Assets.xcassets in Resources */,
 				A4F86CD81DBE01680018F6FE /* Main.storyboard in Resources */,
+				A4F86D091DBE05FA0018F6FE /* 右白箭头@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45363891DC33435004924AC /* XZHomeHuaiYunCollectionViewCell.m in Sources */,
 				A4F86CD51DBE01680018F6FE /* ViewController.m in Sources */,
 				A4F86CD21DBE01680018F6FE /* AppDelegate.m in Sources */,
+				E42F932A1DBE7CA000D0CB0F /* Tool.m in Sources */,
 				A4F86CCF1DBE01680018F6FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +519,7 @@
 				A4F86CF91DBE01680018F6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F86CFA1DBE01680018F6FE /* Build configuration list for PBXNativeTarget "测试时间Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +528,7 @@
 				A4F86CFC1DBE01680018F6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F86CFD1DBE01680018F6FE /* Build configuration list for PBXNativeTarget "测试时间UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +537,7 @@
 				A4F86CFF1DBE01680018F6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
